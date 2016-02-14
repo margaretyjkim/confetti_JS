@@ -72,7 +72,7 @@
     Confetti.prototype.draw = function() {
       var ref;
       this.x += this.vx;
-      this.y += this.xy;
+      this.y += this.vy;
       this.opacity += this.dop;
       if (this.opacity > 1) {
         this.opacity = 1;
